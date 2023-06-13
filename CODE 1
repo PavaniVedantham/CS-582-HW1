@@ -1,0 +1,14 @@
+def main():
+    radius = float(input("Enter the radius: "))
+    diameter = 2*radius
+    circum = 2*(22/7)*radius
+    surface = 4*(22/7)*radius*radius 
+    volume = (4/3)*(22/7)*radius*radius*radius
+    
+    print("Diameter:", diameter)
+    print("Circumference:", circum)
+    print("Surface Area:", surface)
+    print("Volume:", volume)
+    
+if _name_ == "_main_":
+    main()
