@@ -3,7 +3,7 @@ import math
 def main():
     int_height = float(input("Enter the initial height of the ball: "))
     no_of_bounces = int(input("Enter the number of times the ball is allowed to bounce: "))
-    bounciness = 0.6
+    bounciness = float(input("Enter the bounciness index "))
 
     distance = int_height
 
